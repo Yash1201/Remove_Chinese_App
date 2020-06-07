@@ -4,6 +4,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:intent/intent.dart' as android_intent;
 import 'package:intent/action.dart' as android_action;
+import 'package:share/share.dart';
 
 void main() => runApp(MaterialApp(title: "Remove Chinese App",debugShowCheckedModeBanner: false,home: ListAppsPages()));
 
@@ -26,7 +27,9 @@ class _ListAppsPagesState extends State<ListAppsPages> {
 
         actions: <Widget>[
 
-          IconButton(icon: Icon(Icons.share), onPressed: () {}),
+          IconButton(icon: Icon(Icons.share), onPressed: () {
+            Share.share('check out *Remove Chinese App* at https://drive.google.com/drive/folders/1-ycKacJbu7wQirabfWqPVnfDYSH3W0gG?usp=sharing');
+          }),
           SizedBox(width: 15,),
         ],
       ),
@@ -123,6 +126,14 @@ class _ListAppsPagesContent extends StatelessWidget {
             myList.add('Mi Store');
             myList.add('HAGO');
             myList.add('SHAREit');
+            myList.add('CM Browser');
+            myList.add('Baidu Map');
+            myList.add('DU Battery Saver');
+            myList.add('Oppo Store');
+            myList.add('Vivo Store');
+            myList.add('ES File Explorer');
+            myList.add('Clean Master');
+            myList.add('AliExpress');
             myList.add('TikTok');
             myList.add('TikTok Lite');
             myList.add('Kwai');

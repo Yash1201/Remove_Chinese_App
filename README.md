@@ -3,16 +3,28 @@
 Flutter App ask you to uninstall chinese Apps in your phone and provide other similar substitute Apps.
 
 
+
+Download the `apk-release.apk` to try out Remove Chinese App
+<br>
+<br>
+<a href="https://drive.google.com/drive/folders/1-ycKacJbu7wQirabfWqPVnfDYSH3W0gG?usp=sharing"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+
 # ✨ Requirements
 - Any Operating System (ie. MacOS X, Linux, Windows)
 - Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
 - A little knowledge of Dart and Flutter
 - Some fingers to code 😂
 
-Download the `apk-release.apk` to try out wa_status_saver
-<br>
-<a href="https://drive.google.com/drive/folders/1-ycKacJbu7wQirabfWqPVnfDYSH3W0gG?usp=sharing"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
-<br>
+Installation
+
+```
+flutter pub get
+```
+Usage
+
+```
+flutter run
+```
 
 ## 🔌 Plugins
 | Name | Usage |
